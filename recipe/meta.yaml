@@ -1,4 +1,4 @@
-{% set version = '1.1.1' %}
+{% set version = "1.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SAVER_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SAVER/SAVER_{{ version }}.tar.gz
-  sha256: d28a298d390a43f1ed0e11f43a10e4069d0dd94329262c1cccdfd4b5afed7eca
+  sha256: a8840bb2624e914a8dcf064c4d97067f93c6c14c1613ee409247aad922e233e8
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
