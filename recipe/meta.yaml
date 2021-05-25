@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://github.com/mohuangx/SAVER
-  license: GPL-2
+  license: GPL-2.0-only
   summary: An implementation of a regularized regression prediction and  empirical Bayes method
     to recover the true gene expression profile in  noisy and sparse single-cell RNA-seq
     data. See Huang M, et al (2018)  <doi:10.1038/s41592-018-0033-z> for more details.
