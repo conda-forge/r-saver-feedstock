@@ -1,11 +1,11 @@
-About r-saver
-=============
+About r-saver-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-saver-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mohuangx/SAVER
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-saver-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of a regularized regression prediction and  empirical Bayes method to recover the true gene expression profile in  noisy and sparse single-cell RNA-seq data. See Huang M, et al (2018)  <doi:10.1038/s41592-018-0033-z> for more details.
 
